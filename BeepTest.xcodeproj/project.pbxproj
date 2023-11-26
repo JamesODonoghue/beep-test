@@ -16,10 +16,18 @@
 		0681E2152B016B39000679D0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0681E2142B016B39000679D0 /* ContentView.swift */; };
 		0681E2172B016B39000679D0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0681E2162B016B39000679D0 /* Assets.xcassets */; };
 		0681E21A2B016B39000679D0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0681E2192B016B39000679D0 /* Preview Assets.xcassets */; };
+		06AF46182B030FE90067C289 /* BeepTest_Watch_AppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AF46172B030FE90067C289 /* BeepTest_Watch_AppTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		0681E20F2B016B39000679D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0681E1F52B016B37000679D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0681E20C2B016B39000679D0;
+			remoteInfo = "BeepTest Watch App";
+		};
+		06AF46192B030FE90067C289 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 0681E1F52B016B37000679D0 /* Project object */;
 			proxyType = 1;
@@ -53,6 +61,11 @@
 		0681E2142B016B39000679D0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		0681E2162B016B39000679D0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0681E2192B016B39000679D0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		06AF46152B030FE90067C289 /* BeepTest Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "BeepTest Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		06AF46172B030FE90067C289 /* BeepTest_Watch_AppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BeepTest_Watch_AppTests.swift; sourceTree = "<group>"; };
+		06AF461F2B0327B70067C289 /* BeepTest Watch App.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "BeepTest Watch App.entitlements"; sourceTree = "<group>"; };
+		06AF46202B0327F00067C289 /* BeepTest.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = BeepTest.entitlements; sourceTree = "<group>"; };
+		06E469582B01AFF10062AFC9 /* BeepTest-Watch-App-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "BeepTest-Watch-App-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,6 +83,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		06AF46122B030FE90067C289 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -78,6 +98,7 @@
 			children = (
 				0681E1FF2B016B38000679D0 /* BeepTest */,
 				0681E2112B016B39000679D0 /* BeepTest Watch App */,
+				06AF46162B030FE90067C289 /* BeepTest Watch AppTests */,
 				0681E1FE2B016B38000679D0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -87,6 +108,7 @@
 			children = (
 				0681E1FD2B016B38000679D0 /* BeepTest.app */,
 				0681E20D2B016B39000679D0 /* BeepTest Watch App.app */,
+				06AF46152B030FE90067C289 /* BeepTest Watch AppTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,6 +116,7 @@
 		0681E1FF2B016B38000679D0 /* BeepTest */ = {
 			isa = PBXGroup;
 			children = (
+				06AF46202B0327F00067C289 /* BeepTest.entitlements */,
 				0681E2002B016B38000679D0 /* BeepTestApp.swift */,
 				0681E2022B016B38000679D0 /* ContentView.swift */,
 				0681E2042B016B39000679D0 /* Assets.xcassets */,
@@ -113,6 +136,8 @@
 		0681E2112B016B39000679D0 /* BeepTest Watch App */ = {
 			isa = PBXGroup;
 			children = (
+				06AF461F2B0327B70067C289 /* BeepTest Watch App.entitlements */,
+				06E469582B01AFF10062AFC9 /* BeepTest-Watch-App-Info.plist */,
 				0681E2122B016B39000679D0 /* BeepTestApp.swift */,
 				0681E2142B016B39000679D0 /* ContentView.swift */,
 				0681E2162B016B39000679D0 /* Assets.xcassets */,
@@ -127,6 +152,14 @@
 				0681E2192B016B39000679D0 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		06AF46162B030FE90067C289 /* BeepTest Watch AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				06AF46172B030FE90067C289 /* BeepTest_Watch_AppTests.swift */,
+			);
+			path = "BeepTest Watch AppTests";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -168,6 +201,24 @@
 			productReference = 0681E20D2B016B39000679D0 /* BeepTest Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
+		06AF46142B030FE90067C289 /* BeepTest Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06AF461B2B030FE90067C289 /* Build configuration list for PBXNativeTarget "BeepTest Watch AppTests" */;
+			buildPhases = (
+				06AF46112B030FE90067C289 /* Sources */,
+				06AF46122B030FE90067C289 /* Frameworks */,
+				06AF46132B030FE90067C289 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06AF461A2B030FE90067C289 /* PBXTargetDependency */,
+			);
+			name = "BeepTest Watch AppTests";
+			productName = "BeepTest Watch AppTests";
+			productReference = 06AF46152B030FE90067C289 /* BeepTest Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -183,6 +234,10 @@
 					};
 					0681E20C2B016B39000679D0 = {
 						CreatedOnToolsVersion = 14.3.1;
+					};
+					06AF46142B030FE90067C289 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 0681E20C2B016B39000679D0;
 					};
 				};
 			};
@@ -201,6 +256,7 @@
 			targets = (
 				0681E1FC2B016B38000679D0 /* BeepTest */,
 				0681E20C2B016B39000679D0 /* BeepTest Watch App */,
+				06AF46142B030FE90067C289 /* BeepTest Watch AppTests */,
 			);
 		};
 /* End PBXProject section */
@@ -221,6 +277,13 @@
 			files = (
 				0681E21A2B016B39000679D0 /* Preview Assets.xcassets in Resources */,
 				0681E2172B016B39000679D0 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06AF46132B030FE90067C289 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -245,6 +308,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		06AF46112B030FE90067C289 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06AF46182B030FE90067C289 /* BeepTest_Watch_AppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -252,6 +323,11 @@
 			isa = PBXTargetDependency;
 			target = 0681E20C2B016B39000679D0 /* BeepTest Watch App */;
 			targetProxy = 0681E20F2B016B39000679D0 /* PBXContainerItemProxy */;
+		};
+		06AF461A2B030FE90067C289 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0681E20C2B016B39000679D0 /* BeepTest Watch App */;
+			targetProxy = 06AF46192B030FE90067C289 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -370,12 +446,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "BeepTest Watch App/BeepTest Watch AppDebug.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BeepTest Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = N975GJLKCN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BeepTest-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = BeepTest;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = jamesodev.BeepTest;
@@ -401,12 +479,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "BeepTest Watch App/BeepTest Watch App.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BeepTest Watch App/Preview Content\"";
 				DEVELOPMENT_TEAM = N975GJLKCN;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "BeepTest-Watch-App-Info.plist";
 				INFOPLIST_KEY_CFBundleDisplayName = BeepTest;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = jamesodev.BeepTest;
@@ -435,6 +515,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = BeepTest/BeepTestDebug.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BeepTest/Preview Content\"";
@@ -470,6 +551,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				ASSETCATALOG_COMPILER_INCLUDE_ALL_APPICON_ASSETS = YES;
+				CODE_SIGN_ENTITLEMENTS = BeepTest/BeepTest.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"BeepTest/Preview Content\"";
@@ -499,6 +581,47 @@
 			};
 			name = Release;
 		};
+		06AF461C2B030FE90067C289 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N975GJLKCN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jamesodev.BeepTest-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeepTest Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeepTest Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		06AF461D2B030FE90067C289 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = N975GJLKCN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "jamesodev.BeepTest-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BeepTest Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/BeepTest Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -525,6 +648,15 @@
 			buildConfigurations = (
 				0681E2222B016B39000679D0 /* Debug */,
 				0681E2232B016B39000679D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06AF461B2B030FE90067C289 /* Build configuration list for PBXNativeTarget "BeepTest Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06AF461C2B030FE90067C289 /* Debug */,
+				06AF461D2B030FE90067C289 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
